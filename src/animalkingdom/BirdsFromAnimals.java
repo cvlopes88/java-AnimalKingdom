@@ -14,16 +14,16 @@ public class BirdsFromAnimals extends AbstractAnimals {
     public String eat(){
         return "Grains";
     }
-
+    @Override
     public String move(){
         return "Fly";
     }
-
+    @Override
     public String reproduce(){
         return "eggs";
     }
 
-    
+    @Override
     public String breath(){
         return "Lungs";
     }
